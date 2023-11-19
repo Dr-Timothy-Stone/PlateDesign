@@ -141,6 +141,7 @@ while (1) {
     next()
   }
   
+  
   # Age is continuous, t-test
   ageP <- t.test(age ~ Plate, data = matchCopy)$p.value
   if (ageT < 0.05) {
